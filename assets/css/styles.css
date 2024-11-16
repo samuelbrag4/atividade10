@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+@import 'animate.css';
 
 :root {
     --background-color: #f0f0f0;
@@ -59,4 +60,10 @@ article {
     justify-content: center;
     gap: 1rem;
     margin: 2rem;
+}
+
+/* Card */
+.card:hover {
+    animation: animate__bounce;
+    animation-duration: 1s;
 }
