@@ -67,3 +67,10 @@ article {
     animation: animate__bounce;
     animation-duration: 1s;
 }
+
+alinhamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
